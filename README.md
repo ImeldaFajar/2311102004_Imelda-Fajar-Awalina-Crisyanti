@@ -10,7 +10,7 @@
 <br><br>
 
 <p align="center">
-<img src="LogoTelkom.png" width="200">
+<img src="6.png" width="200">
 </p>
 <br><br><br>
 
