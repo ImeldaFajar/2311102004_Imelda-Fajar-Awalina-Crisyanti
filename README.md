@@ -10,7 +10,7 @@
 <br><br>
 
 <p align="center">
-<img src="9.png" width="200">
+<img src="8.png" width="200">
 </p>
 <br><br><br>
 
@@ -134,7 +134,7 @@ Langkah terakhir adalah mengirim file ke GitHub menggunakan perintah:
 
 Setelah proses ini berhasil, file dan folder akan muncul di repository GitHub.
 
-<img src="8.png">
+<img src="Screenshot 2026-04-11 211551.png">
 
 ---
 
