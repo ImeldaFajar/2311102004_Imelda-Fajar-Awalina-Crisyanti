@@ -46,9 +46,9 @@
 <hr>
 
 ## DASAR TEORI
-Git merupakan sistem pengontrol versi (Version Control System) yang digunakan untuk mencatat setiap perubahan pada file dalam suatu proyek. Dengan Git, setiap perubahan dapat dilacak sehingga memudahkan dalam pengelolaan dan pengembangan project.  
+Git merupakan sistem pengelolaan versi (version control system) yang digunakan untuk mencatat dan melacak perubahan pada file dalam suatu proyek. Dengan Git, pengguna dapat melihat riwayat perubahan, membandingkan versi, serta mengembalikan file ke kondisi sebelumnya. Git juga bersifat terdistribusi, sehingga setiap pengguna memiliki salinan repository di komputernya.
 
-Pada praktikum ini juga digunakan GitHub sebagai media penyimpanan repository secara online (remote repository). GitHub memungkinkan project yang telah dibuat secara lokal dapat diupload sehingga dapat diakses, disimpan, dan dibagikan melalui internet.
+Dalam penggunaannya, Git memiliki tahapan seperti working directory, staging area, dan repository. Perubahan disimpan melalui proses add dan commit. Selain itu, Git dapat terhubung dengan layanan seperti GitHub untuk menyimpan project secara online dan memudahkan kolaborasi.
 
 ---
 
