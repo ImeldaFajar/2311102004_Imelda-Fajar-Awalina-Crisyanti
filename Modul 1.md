@@ -10,7 +10,7 @@
 <br><br>
 
 <p align="center">
-<img src="6.png" width="200">
+<img src="8.png" width="200">
 </p>
 <br><br><br>
 
@@ -60,7 +60,7 @@ Langkah pertama yang dilakukan adalah memastikan Git sudah terinstall dengan men
 
 Perintah ini menampilkan versi Git yang terpasang pada komputer.
 
-<img src="1.jpeg">
+<img src="1.png">
 
 ---
 
@@ -71,7 +71,7 @@ Selanjutnya dilakukan konfigurasi username dan email menggunakan perintah:
 
 Konfigurasi ini bertujuan agar setiap commit memiliki identitas pengguna.
 
-<img src="2.jpeg">
+<img src="2.png">
 
 ---
 
@@ -84,7 +84,7 @@ Kemudian masuk ke folder repository:
 
 Langkah ini bertujuan untuk membuat folder project sekaligus mengaktifkan Git di dalamnya.
 
-<img src="3.jpeg">
+<img src="3.png">
 
 ---
 
@@ -94,7 +94,7 @@ Selanjutnya dibuat file README sebagai dokumentasi menggunakan perintah:
 
 File ini akan digunakan untuk menjelaskan isi project di GitHub.
 
-<img src="4.jpeg">
+<img src="4.png">
 
 ---
 
@@ -104,7 +104,7 @@ File yang sudah dibuat ditambahkan ke staging area dengan perintah:
 
 Perintah ini berfungsi untuk menandai file yang akan disimpan ke repository.
 
-<img src="5.jpeg">
+<img src="5.png">
 
 ---
 
@@ -114,7 +114,7 @@ Setelah file ditambahkan, langkah berikutnya adalah melakukan commit:
 
 Commit digunakan untuk menyimpan perubahan yang telah dilakukan.
 
-<img src="6.jpeg">
+<img src="6.png">
 
 ---
 
@@ -124,7 +124,7 @@ Repository lokal kemudian dihubungkan dengan repository GitHub menggunakan perin
 
 Langkah ini bertujuan agar project lokal dapat terhubung dengan repository online.
 
-<img src="7.jpeg">
+<img src="7.png">
 
 ---
 
@@ -134,7 +134,7 @@ Langkah terakhir adalah mengirim file ke GitHub menggunakan perintah:
 
 Setelah proses ini berhasil, file dan folder akan muncul di repository GitHub.
 
-<img src="8.jpeg">
+<img src="Screenshot 2026-04-11 211551.png">
 
 ---
 
