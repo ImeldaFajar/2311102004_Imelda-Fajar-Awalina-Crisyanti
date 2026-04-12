@@ -66,6 +66,9 @@ Selain itu, dalam pembuatan tampilan sederhana tanpa CSS, HTML juga menyediakan 
 </head>
 
 <body>
+...
+</body>
+</html>
 
 <br><br><br><br><br><br><br><br>
 
