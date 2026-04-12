@@ -16,8 +16,8 @@
 <h2 align="center">Disusun Oleh :</h2>
 
 <p align="center" style="font-size:28px;">
-  <b>Nofita Fitriyani</b><br>
-  <b>2311102001</b><br>
+  <b>Imelda Fajar</b><br>
+  <b>2311102004</b><br>
   <b>S1 IF-11-REG 01</b>
 </p>
 <br>
@@ -42,9 +42,11 @@
 <hr>
 
 ### Dasar Teori
-HTML atau HyperText Markup Language adalah bahasa markup yang digunakan untuk membuat struktur dasar sebuah halaman web. Dengan HTML, kita dapat menampilkan berbagai elemen seperti teks, gambar, link, form, dan tabel. Salah satu elemen penting dalam HTML adalah tabel.
+HTML (HyperText Markup Language) adalah bahasa markup yang digunakan untuk menyusun dan menampilkan struktur dasar halaman web. Dengan HTML, berbagai elemen seperti teks, gambar, link, dan tabel dapat ditampilkan secara terstruktur di browser. HTML bekerja menggunakan tag-tag tertentu yang memiliki fungsi masing-masing dalam membentuk suatu tampilan halaman.
 
-Tabel pada HTML digunakan untuk menampilkan data dalam bentuk baris dan kolom agar informasi menjadi lebih terstruktur dan mudah dibaca. Elemen utama yang digunakan untuk membuat tabel adalah `<table>`, sedangkan untuk membuat baris digunakan tag `<tr>`, untuk judul kolom digunakan tag `<th>`, dan untuk isi data digunakan tag `<td>`.
+Salah satu elemen yang sering digunakan dalam HTML adalah tabel. Tabel berfungsi untuk menyajikan data dalam bentuk baris dan kolom agar lebih mudah dibaca dan dipahami. Pembuatan tabel dilakukan dengan beberapa tag utama seperti <table> sebagai wadah, <tr> untuk baris, <th> untuk judul kolom, dan <td> untuk isi data. Dengan kombinasi tag tersebut, data dapat ditampilkan secara rapi dan terorganisir.
+
+Selain itu, dalam pembuatan tampilan sederhana tanpa CSS, HTML juga menyediakan beberapa tag tambahan seperti <center> untuk mengatur posisi ke tengah dan <br> untuk memberi jarak antar elemen. Meskipun cara ini tergolong sederhana, namun cukup efektif untuk memahami dasar pembuatan tampilan web.
 
 ### Source Code
 ```html
@@ -56,10 +58,10 @@ Tabel pada HTML digunakan untuk menampilkan data dalam bentuk baris dan kolom ag
 
 <body>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 
 <center>
-<table border="1" cellspacing="0" >
+<table border="1" cellspacing="0">
 <tr>
 <th>Nama Lengkap</th>
 <th>Kota Kelahiran</th>
@@ -67,21 +69,21 @@ Tabel pada HTML digunakan untuk menampilkan data dalam bentuk baris dan kolom ag
 </tr>
 
 <tr>
-<td>Nofita Fitriyani</td>
-<td>Purwokerto</td>
+<td>Imelda</td>
+<td>Pati</td>
 <td>20</td>
 </tr>
 
 <tr>
-<td>Budi</td>
-<td>Jakarta</td>
-<td>35</td>
+<td>Fajar</td>
+<td>Purwokerto</td>
+<td>21</td>
 </tr>
 
 <tr>
-<td>Andi</td>
+<td>Crisyanti</td>
 <td>Semarang</td>
-<td>52</td>
+<td>28</td>
 </tr>
 
 </table>
@@ -97,27 +99,31 @@ Output program menampilkan sebuah tabel sederhana yang berada di tengah halaman.
 <img src="output.png">
 
 ### Pembahasan Source Code
-Pada tugas ini, tabel harus ditampilkan di tengah layar tanpa menggunakan CSS atau styling. Oleh karena itu, digunakan tag `<center>` untuk menempatkan tabel di bagian tengah secara horizontal. Selain itu, digunakan beberapa tag `<br>` untuk memberi jarak ke bawah sehingga tabel tampak berada di bagian tengah halaman. Atribut border="1" digunakan untuk menampilkan garis tabel, sedangkan cellspacing="0" digunakan agar jarak antar garis tabel tidak renggang.
 
-`<!DOCTYPE html>` berfungsi untuk mendeklarasikan bahwa dokumen yang digunakan adalah HTML5.
-`<html>` merupakan tag pembuka untuk seluruh isi dokumen HTML.
-`<head>` digunakan untuk menyimpan informasi tambahan halaman, seperti judul halaman.
-`<title>Tugas 2 - Tabel Dasar</title>` berfungsi menampilkan judul halaman pada tab browser.
-`<body>` berisi seluruh isi halaman web yang akan ditampilkan kepada pengguna.
-Tag `<br>` digunakan untuk membuat baris kosong atau memberi jarak ke bawah. Pada kode ini, beberapa tag `<br>` dipakai agar tabel turun ke bagian tengah halaman secara vertikal.
-Tag `<center>` digunakan untuk meletakkan tabel di tengah halaman secara horizontal. Cara ini dipakai karena pada soal tidak diperbolehkan menggunakan CSS atau styling.
-Tag `<table border="1" cellspacing="0">` digunakan untuk membuat tabel.
-`border="1"` menampilkan garis pada tabel.
-`cellspacing="0"` menghilangkan jarak antar sel sehingga garis tabel terlihat menyatu.
-Tag `<tr>` digunakan untuk membuat baris tabel.
-Tag `<th>` digunakan untuk membuat judul kolom tabel. Pada program ini terdapat 3 judul kolom, yaitu: Nama Lengkap, Kota Kelahiran, Age
+Program ini dibuat menggunakan HTML untuk menampilkan sebuah tabel sederhana yang berisi data nama, kota kelahiran, dan usia. Struktur dasar dokumen HTML diawali dengan `<!DOCTYPE html>` yang berfungsi sebagai deklarasi bahwa file menggunakan standar HTML5, sehingga browser dapat menampilkan halaman dengan benar.
 
-Tag `<td>` digunakan untuk mengisi data pada tiap sel tabel. Pada program ini terdapat 3 data, yaitu: 
-Nofita Fitriyani, Purwokerto, 20
-Budi, Jakarta, 35
-Andi, Semarang, 52
+Tag `<html>` merupakan elemen utama yang membungkus seluruh isi dokumen HTML. Di dalamnya terdapat dua bagian utama, yaitu `<head>` dan `<body>`. Bagian `<head>` digunakan untuk menyimpan informasi yang tidak ditampilkan langsung di halaman, seperti judul halaman yang dituliskan dalam tag `<title>`. Judul tersebut akan muncul pada tab browser.
 
-Secara keseluruhan, kode program ini menampilkan tabel sederhana yang berisi data identitas dan ditampilkan di tengah halaman tanpa menggunakan CSS.
+Bagian `<body>` merupakan bagian utama yang berisi semua elemen yang akan ditampilkan kepada pengguna. Pada program ini, digunakan beberapa tag `<br>` untuk memberikan jarak atau spasi ke bawah agar tampilan tabel tidak berada terlalu atas, sehingga terlihat lebih rapi di tengah halaman secara vertikal.
+
+Untuk mengatur posisi tabel agar berada di tengah secara horizontal, digunakan tag `<center>`. Tag ini berfungsi untuk menempatkan elemen di tengah halaman, meskipun dalam praktik modern biasanya digantikan dengan CSS.
+
+Pembuatan tabel dilakukan dengan menggunakan tag `<table>`. Pada tag ini terdapat atribut `border="1"` yang berfungsi untuk menampilkan garis pada tabel sehingga batas antar sel terlihat jelas. Selain itu, digunakan atribut `cellspacing="0"` untuk menghilangkan jarak antar sel, sehingga garis tabel tampak menyatu dan lebih rapi.
+
+Di dalam tabel, digunakan tag `<tr>` (table row) untuk membuat baris. Baris pertama digunakan sebagai header tabel yang berisi judul kolom. Untuk membuat judul kolom digunakan tag `<th>` (table header), yaitu "Nama Lengkap", "Kota Kelahiran", dan "Age". Tag `<th>` secara otomatis membuat teks menjadi tebal dan berada di tengah.
+
+Baris berikutnya digunakan untuk menampilkan data. Setiap data dimasukkan menggunakan tag `<td>` (table data). Pada program ini terdapat tiga baris data, yaitu:
+- Imelda, Pati, 20  
+- Fajar, Purwokerto, 21  
+- Crisyanti, Semarang, 28  
+
+Setiap baris data dipisahkan menggunakan tag `<tr>`, sehingga tabel tersusun secara terstruktur dalam bentuk baris dan kolom.
+
+Secara keseluruhan, program ini berhasil menampilkan tabel sederhana yang berisi data identitas dengan rapi. Meskipun tidak menggunakan CSS, tampilan tetap dapat diatur dengan memanfaatkan tag HTML dasar seperti `<center>` dan `<br>`. Program ini menunjukkan pemahaman dasar dalam penggunaan struktur HTML dan pembuatan tabel.
 
 ### Kesimpulan
-Berdasarkan program yang dibuat, dapat disimpulkan bahwa HTML dapat digunakan untuk membuat tabel sederhana dengan mudah menggunakan tag `<table>`, `<tr>`, `<th>`, dan `<td>`. Tabel dapat diletakkan di tengah halaman tanpa CSS dengan memanfaatkan tag `<center>` dan bantuan tag `<br>` untuk memberi jarak vertikal. Program ini sudah sesuai dengan ketentuan soal, yaitu membuat tabel dasar yang berada di tengah layar tanpa menggunakan CSS atau styling tambahan.
+Berdasarkan hasil praktikum yang telah dilakukan, dapat disimpulkan bahwa HTML mampu digunakan untuk membuat tampilan halaman web sederhana, khususnya dalam menampilkan data berbentuk tabel. Melalui penggunaan tag dasar seperti `<table>`, `<tr>`, `<th>`, dan `<td>`, data yang dimasukkan dapat disusun menjadi baris dan kolom sehingga lebih terstruktur dan mudah dipahami.
+
+Pada program yang dibuat, data berupa nama, kota kelahiran, dan usia berhasil ditampilkan dengan baik menggunakan tabel. Selain itu, meskipun tidak menggunakan CSS, tampilan tetap dapat diatur agar terlihat lebih rapi dengan memanfaatkan tag `<center>` untuk penempatan di tengah dan `<br>` untuk memberikan jarak antar elemen.
+
+Dengan demikian, praktikum ini membantu dalam memahami dasar penggunaan HTML, khususnya dalam pembuatan tabel serta pengaturan tampilan sederhana. Hasil yang diperoleh sudah sesuai dengan tujuan praktikum, yaitu menampilkan data dalam bentuk tabel secara jelas dan terorganisir.
