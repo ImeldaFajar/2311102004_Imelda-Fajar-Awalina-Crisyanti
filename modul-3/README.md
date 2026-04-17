@@ -153,7 +153,7 @@ Pada bagian CSS, digunakan linear-gradient untuk membuat latar belakang gradasi 
 
 Class .gambar digunakan untuk mengatur ukuran gambar, border emas, serta sudut melengkung agar tampilan lebih estetis. Sedangkan .hiasan digunakan untuk memperbesar dan memberi jarak pada elemen dekoratif.
 
-```md
+
 
 ## Kesimpulan
 
