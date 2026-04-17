@@ -48,7 +48,7 @@
 
 <hr>
 
-## 📌 Dasar Teori
+## Dasar Teori
 
 HTML (HyperText Markup Language) merupakan bahasa dasar yang digunakan untuk membuat struktur halaman web. HTML berfungsi untuk menyusun elemen-elemen seperti teks, gambar, dan konten lainnya agar dapat ditampilkan di browser secara teratur.
 
@@ -58,9 +58,9 @@ Pada praktikum ini, HTML digunakan untuk membuat halaman bertema Tahun Baru Imle
 
 ---
 
-## 💻 Source Code
+## Source Code
 
-### 📄 HTML (index.html)
+### HTML (index.html)
 
 ```html
 <!DOCTYPE html>
@@ -127,7 +127,9 @@ h2 {
     font-size: 28px;
 }
 
-### Output
+---
+
+## Output
 
 <img src="output.png">
 
@@ -148,7 +150,7 @@ Pada bagian CSS, digunakan linear-gradient untuk membuat latar belakang gradasi 
 
 Class .gambar digunakan untuk mengatur ukuran gambar, border emas, serta sudut melengkung agar tampilan lebih estetis. Sedangkan .hiasan digunakan untuk memperbesar dan memberi jarak pada elemen dekoratif.
 
-### Kesimpulan
+## Kesimpulan
 
 Berdasarkan praktikum yang telah dilakukan, dapat disimpulkan bahwa HTML dan CSS sangat penting dalam pembuatan halaman web.
 
