@@ -90,6 +90,7 @@ Pada praktikum ini, HTML digunakan untuk membuat halaman bertema Tahun Baru Imle
 </body>
 </html>
 
+```md
 
 ### Source Code CSS
 body {
@@ -127,7 +128,7 @@ h2 {
     font-size: 28px;
 }
 
----
+```md
 
 ## Output
 
@@ -135,6 +136,7 @@ h2 {
 
 Hasil dari program ini adalah halaman web bertema Tahun Baru Imlek dengan dominasi warna merah dan emas. Halaman menampilkan judul utama, subjudul, gambar, teks ucapan, serta elemen dekoratif emoji yang memperkuat nuansa Imlek.
 
+```md
 
 ### Penjelasan Kode Program
 
@@ -149,6 +151,8 @@ Selain itu, ditambahkan elemen <div class="hiasan"> yang berisi emoji 🧧 🏮 
 Pada bagian CSS, digunakan linear-gradient untuk membuat latar belakang gradasi merah. Warna teks diatur menjadi emas (gold) agar sesuai dengan tema Imlek. Properti text-align: center digunakan agar seluruh konten berada di tengah.
 
 Class .gambar digunakan untuk mengatur ukuran gambar, border emas, serta sudut melengkung agar tampilan lebih estetis. Sedangkan .hiasan digunakan untuk memperbesar dan memberi jarak pada elemen dekoratif.
+
+```md
 
 ## Kesimpulan
 
