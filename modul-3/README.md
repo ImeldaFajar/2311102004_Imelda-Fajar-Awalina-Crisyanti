@@ -141,22 +141,25 @@ Hasil dari program ini adalah halaman web bertema Tahun Baru Imlek dengan domina
 
 ### Penjelasan Kode Program
 
-Program ini dibuat menggunakan HTML dan CSS untuk membangun halaman web sederhana bertema Imlek.
+Program ini dibuat menggunakan HTML untuk membangun struktur halaman dan CSS untuk mengatur tampilan halaman web bertema Tahun Baru Imlek.
 
-Pada bagian HTML, struktur diawali dengan <!DOCTYPE html> yang menunjukkan penggunaan HTML5. Elemen <html> menjadi pembungkus utama, sedangkan <head> berisi metadata seperti judul dan penghubung file CSS menggunakan <link>.
+Pada HTML, <!DOCTYPE html> digunakan untuk mendefinisikan dokumen HTML5, sedangkan <html lang="id"> menunjukkan bahasa halaman adalah Bahasa Indonesia. Di dalam <head>, terdapat <meta charset="UTF-8"> untuk mendukung karakter dan emoji, <title> untuk judul halaman di tab browser, serta <link rel="stylesheet" href="style.css"> untuk menghubungkan file CSS eksternal.
 
-Pada bagian <body>, seluruh konten halaman diletakkan di dalam <div class="container"> agar lebih terstruktur. Judul utama ditampilkan menggunakan <h1>, subjudul menggunakan <h2>, gambar ditampilkan menggunakan <img> dengan class gambar, dan teks ucapan menggunakan <p>.
+Pada bagian <body>, seluruh konten diletakkan di dalam <div class="container"> sebagai wadah utama. Di dalamnya terdapat <h1> dan <h2> sebagai judul dan subjudul, <img> untuk menampilkan gambar bertema Imlek dengan class gambar, serta <p> untuk menampilkan teks ucapan.
 
-Selain itu, ditambahkan elemen <div class="hiasan"> yang berisi emoji 🧧 🏮 🐉 untuk memberikan efek visual yang lebih menarik.
+Selain itu, terdapat <div class="hiasan"> yang berisi emoji 🧧🏮🐉 sebagai elemen dekoratif untuk mempercantik tampilan halaman.
 
-Pada bagian CSS, digunakan linear-gradient untuk membuat latar belakang gradasi merah. Warna teks diatur menjadi emas (gold) agar sesuai dengan tema Imlek. Properti text-align: center digunakan agar seluruh konten berada di tengah.
+Pada CSS, digunakan linear-gradient untuk membuat latar belakang gradasi warna merah, serta color: gold untuk memberi warna teks agar sesuai dengan tema Imlek. Properti text-align: center digunakan agar seluruh elemen berada di tengah halaman.
 
-Class .gambar digunakan untuk mengatur ukuran gambar, border emas, serta sudut melengkung agar tampilan lebih estetis. Sedangkan .hiasan digunakan untuk memperbesar dan memberi jarak pada elemen dekoratif.
+Class .container berfungsi untuk memberi jarak pada isi halaman, .gambar untuk mengatur ukuran, border emas, dan sudut melengkung pada gambar, sedangkan .hiasan digunakan untuk memperbesar dan memberi jarak pada emoji.
 
+Secara keseluruhan, HTML digunakan sebagai struktur halaman, sedangkan CSS digunakan untuk memperindah tampilan sehingga menghasilkan halaman web yang rapi, menarik, dan sesuai dengan tema Imlek.
 
+```
 
 ## Kesimpulan
 
 Berdasarkan praktikum yang telah dilakukan, dapat disimpulkan bahwa HTML dan CSS sangat penting dalam pembuatan halaman web.
 
 HTML berfungsi sebagai struktur utama halaman, sedangkan CSS berfungsi untuk memperindah tampilan. Kombinasi keduanya menghasilkan halaman web bertema Imlek yang menarik, rapi, dan mudah dibaca.
+```
