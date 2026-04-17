@@ -155,7 +155,7 @@ Class .container berfungsi untuk memberi jarak pada isi halaman, .gambar untuk m
 
 Secara keseluruhan, HTML digunakan sebagai struktur halaman, sedangkan CSS digunakan untuk memperindah tampilan sehingga menghasilkan halaman web yang rapi, menarik, dan sesuai dengan tema Imlek.
 
-```
+
 
 ## Kesimpulan
 
