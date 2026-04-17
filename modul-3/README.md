@@ -9,7 +9,7 @@
 <br><br>
 
 <p align="center">
-  <img src="LogoTelkom.png" width="300">
+  <img src="logo.png" width="300">
 </p>
 
 <br><br>
@@ -17,9 +17,9 @@
 <h2 align="center">Disusun Oleh :</h2>
 
 <p align="center" style="font-size:28px;">
-  <b>[Nama Kamu]</b><br>
-  <b>[NIM Kamu]</b><br>
-  <b>[Kelas Kamu]</b>
+  <b>Imelda Fajar</b><br>
+  <b>2311102004</b><br>
+  <b>IF 11 01</b>
 </p>
 
 <br>
