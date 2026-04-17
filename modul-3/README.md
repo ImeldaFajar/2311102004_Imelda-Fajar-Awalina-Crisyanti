@@ -143,11 +143,11 @@ Hasil dari program ini adalah halaman web bertema Tahun Baru Imlek dengan domina
 
 Program ini dibuat menggunakan HTML untuk membangun struktur halaman dan CSS untuk mengatur tampilan halaman web bertema Tahun Baru Imlek.
 
-Pada HTML, <!DOCTYPE html> digunakan untuk mendefinisikan dokumen HTML5, sedangkan <html lang="id"> menunjukkan bahasa halaman adalah Bahasa Indonesia. Di dalam <head>, terdapat <meta charset="UTF-8"> untuk mendukung karakter dan emoji, <title> untuk judul halaman di tab browser, serta <link rel="stylesheet" href="style.css"> untuk menghubungkan file CSS eksternal.
+Pada HTML, &lt;!DOCTYPE html&gt; digunakan untuk mendefinisikan dokumen HTML5, sedangkan &lt;html lang="id"&gt; menunjukkan bahasa halaman adalah Bahasa Indonesia. Di dalam &lt;head&gt;, terdapat &lt;meta charset="UTF-8"&gt; untuk mendukung karakter dan emoji, &lt;title&gt; untuk judul halaman di tab browser, serta &lt;link rel="stylesheet" href="style.css"&gt; untuk menghubungkan file CSS eksternal.
 
-Pada bagian <body>, seluruh konten diletakkan di dalam <div class="container"> sebagai wadah utama. Di dalamnya terdapat <h1> dan <h2> sebagai judul dan subjudul, <img> untuk menampilkan gambar bertema Imlek dengan class gambar, serta <p> untuk menampilkan teks ucapan.
+Pada bagian &lt;body&gt;, seluruh konten diletakkan di dalam &lt;div class="container"&gt; sebagai wadah utama. Di dalamnya terdapat &lt;h1&gt; dan &lt;h2&gt; sebagai judul dan subjudul, &lt;img&gt; untuk menampilkan gambar bertema Imlek dengan class gambar, serta &lt;p&gt; untuk menampilkan teks ucapan.
 
-Selain itu, terdapat <div class="hiasan"> yang berisi emoji 🧧🏮🐉 sebagai elemen dekoratif untuk mempercantik tampilan halaman.
+Selain itu, terdapat &lt;div class="hiasan"&gt; yang berisi emoji 🧧🏮🐉 sebagai elemen dekoratif untuk mempercantik tampilan halaman.
 
 Pada CSS, digunakan linear-gradient untuk membuat latar belakang gradasi warna merah, serta color: gold untuk memberi warna teks agar sesuai dengan tema Imlek. Properti text-align: center digunakan agar seluruh elemen berada di tengah halaman.
 
