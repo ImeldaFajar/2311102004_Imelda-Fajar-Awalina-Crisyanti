@@ -48,7 +48,7 @@
 
 <hr>
 
-## Dasar Teori
+### Dasar Teori
 
 HTML (HyperText Markup Language) merupakan bahasa dasar yang digunakan untuk membuat struktur halaman web. HTML berfungsi untuk menyusun elemen-elemen seperti teks, gambar, dan konten lainnya agar dapat ditampilkan di browser secara teratur.
 
@@ -56,7 +56,7 @@ CSS (Cascading Style Sheets) digunakan untuk mengatur tampilan atau desain dari 
 
 Pada praktikum ini, HTML digunakan untuk membuat halaman bertema Tahun Baru Imlek, sedangkan CSS digunakan untuk mempercantik tampilan dengan warna merah dan emas serta menambahkan elemen dekoratif agar lebih menarik.
 
----
+
 
 ## Source Code
 
@@ -90,9 +90,10 @@ Pada praktikum ini, HTML digunakan untuk membuat halaman bertema Tahun Baru Imle
 </body>
 </html>
 
-```md
+```
 
 ### Source Code CSS
+```
 body {
     margin: 0;
     padding: 0;
@@ -128,7 +129,7 @@ h2 {
     font-size: 28px;
 }
 
-```md
+```
 
 ## Output
 
@@ -136,7 +137,7 @@ h2 {
 
 Hasil dari program ini adalah halaman web bertema Tahun Baru Imlek dengan dominasi warna merah dan emas. Halaman menampilkan judul utama, subjudul, gambar, teks ucapan, serta elemen dekoratif emoji yang memperkuat nuansa Imlek.
 
-```md
+
 
 ### Penjelasan Kode Program
 
