@@ -122,7 +122,8 @@ Dalam praktikum ini, Bootstrap digunakan melalui CDN, sehingga semua komponen da
 
 ```
 ### Output 
-<img src="output.jpg">
+
+<img src="images.jpg" alt="Ramadan Illustration" class="hero-img mt-4">
 
 ### Penjelasan Kode Program
 Pada halaman web ini, Bootstrap dipanggil melalui CDN pada bagian `<head>`, sehingga semua komponen seperti tombol, card, form, dan grid dapat langsung digunakan tanpa perlu mengunduh file CSS dan JavaScript secara lokal. Hal ini mempercepat proses pengembangan dan memastikan halaman selalu menggunakan versi terbaru dari Bootstrap.
