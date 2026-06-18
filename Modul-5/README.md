@@ -3,8 +3,8 @@
 
 <br>
 
-<h2 align="center">MODUL 4</h2>
-<h2 align="center">BOOTSTRAP</h2>
+<h2 align="center">MODUL 5</h2>
+<h2 align="center">JAVASCRIPT & JQUERY</h2>
 
 <br><br>
 
