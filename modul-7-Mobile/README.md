@@ -16,13 +16,13 @@
   <br />
   <h3>Dosen Pengampu :</h3>
   <p>
-    <strong>Dedi Agung Prabowo, S.Kom., M.Kom</strong>
+    <strong>Dimas Fanny Hebrasianto Permadi, S.ST., M.Kom</strong>
   </p>
   <br />
   <h4>Asisten Praktikum :</h4>
   <p>
     <strong>Apri Pandu Wicaksono</strong><br>
-    <strong>Hamka Zaenul Ardi</strong>
+    <strong>Rangga Pradarrell Fathi</strong>
   </p>
   <br />
   <h3>LABORATORIUM HIGH PERFORMANCE<br>FAKULTAS INFORMATIKA<br>UNIVERSITAS TELKOM PURWOKERTO<br>2026</h3>
