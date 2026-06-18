@@ -179,7 +179,7 @@ Terima Kasih
 ```
 ### Output 
 
-<img src="output.jng" alt="Ramadan Illustration" class="hero-img mt-4">
+<img src="output.jpg" alt="Ramadan Illustration" class="hero-img mt-4">
 
 ### Penjelasan Kode Program
 Program tersebut merupakan halaman web berbasis HTML yang memanfaatkan framework Bootstrap untuk membangun tampilan yang responsif dan interaktif. Struktur utama dimulai dari deklarasi dokumen HTML5 yang diikuti dengan pengaturan bahasa Indonesia serta konfigurasi meta viewport agar halaman dapat menyesuaikan ukuran layar perangkat. Pada bagian head, halaman ini menghubungkan Bootstrap melalui CDN sehingga seluruh komponen seperti grid, tombol, card, dan modal dapat digunakan tanpa perlu instalasi tambahan.
