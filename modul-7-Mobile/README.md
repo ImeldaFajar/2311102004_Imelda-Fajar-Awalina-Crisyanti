@@ -10,8 +10,8 @@
   <h3>Disusun Oleh :</h3>
   <p>
     <strong>Imelda Fajar Awalina Crisyanti</strong><br>
-    <strong>[Isi NIM Di Sini]</strong><br>
-    <strong>[Isi Kelas Di Sini]</strong>
+    <strong>2311102004</strong><br>
+    <strong>IF 11 01</strong>
   </p>
   <br />
   <h3>Dosen Pengampu :</h3>
